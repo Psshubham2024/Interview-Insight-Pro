@@ -1,0 +1,6 @@
+streamlit
+docx
+python-docx
+PyPDF2
+textblob
+requests
