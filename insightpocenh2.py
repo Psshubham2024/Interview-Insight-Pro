@@ -223,7 +223,7 @@ def main_app():
                         st.download_button(f"Download Evaluation Report for {uploaded_transcript.name}", word_report, f"evaluation_report_{uploaded_transcript.name}.docx")
 
         # Explanation text after input and feedback output
-        st.write("*Sentiment Score indicates that the general tone of the responses, questions, and overall conversation.")
+        st.write("*Sentiment Score indicates the general tone of the responses, questions, and overall conversation.")
         st.write("**Negative Score** (close to -1) 🥺, **Neutral Score** (close to 0) 😐, **Positive Score** (close to +1) 😊")
 
     # Footer update with black and white text and reduced box size
