@@ -165,7 +165,7 @@ def main_app():
     st.write("Upload the interview transcript(s) to evaluate the candidate, interviewer, and responses using AI.")
 
     # Job title selection
-    job_title_options = ["Agile Program Manager", "Software Engineer", "Data Analyst", "Product Manager", "Other"]
+    job_title_options = ["Agile Program Manager", "Software Engineer", "Data Analyst", "Other"]
     selected_job_title = st.selectbox("Job Title", job_title_options)
 
     if selected_job_title == "Other":
