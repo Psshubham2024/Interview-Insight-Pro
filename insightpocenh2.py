@@ -11,7 +11,7 @@ from textblob import TextBlob  # For Sentiment Analysis
 
 # Define the API endpoint and access token
 API_URL = "https://api.psnext.info/api/chat"
-PSCHATACCESSTOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MzcxMzcsInJvbGVzIjpbImRlZmF1bHQiXSwicGF0aWQiOiI1MjllMDYyOC1jNWQyLTQ1YjctODdlNy1iZTQ0YjAxODE5MjYifSwiaWF0IjoxNzM2NDkyMzI1LCJleHAiOjE3MzkwODQzMjV9.ZUWBt9TuOBPaw6nkCLeeAEDDvWHjDRrfrdI2kxC8Wwk"  # Replace with your actual access token
+PSCHATACCESSTOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MzcxMzcsInJvbGVzIjpbImRlZmF1bHQiXSwicGF0aWQiOiI2NGViYjRhZS1lYjUxLTQ5YzctYTNiNC03MTFkZTM5YzBmY2IifSwiaWF0IjoxNzM2NzU4MTkzLCJleHAiOjE3NDE5NDIxOTN9.NKQrOTHjQ1dbL6wWoF8SctOnyXj03PxgkdI4PXgjDwM"  
 
 # Rate limiting variables
 requests_per_minute = 5  # Set your API rate limit here
